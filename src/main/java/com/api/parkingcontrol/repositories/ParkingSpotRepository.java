@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 import java.util.UUID;
 
 @Repository
-public interface ParkingSpotRepository extends JpaRepository<ParkingSpotModel, UUID> { // possui metodos prontos para realziar transações com o DB.
+public interface ParkingSpotRepository extends JpaRepository<ParkingSpotModel, UUID> { // JPA possui metodos prontos para realziar transações com o DB.
 
 }

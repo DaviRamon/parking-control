@@ -5,6 +5,8 @@ import javax.validation.constraints.Size;
 
 public class ParkingSpotDto {
 
+    //constraints default, é possivel personalizar segundo a regra de negocio
+
     @NotBlank
     private String parkingSpotNumber;
     @NotBlank
